@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 対象のCSVファイルの読み込み
-# この場合、対象のCSVファイルの最終行には改行を入れる必要がある
+# 対象のCSVファイルの指定
+# 注意としては、このやり方だと対象のCSVファイルの最終行に1行分改行を入れる必要がある
 TARGET_FILE='sample.csv'
 
 cat ${TARGET_FILE} | while read line
